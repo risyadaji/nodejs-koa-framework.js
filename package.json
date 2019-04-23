@@ -1,0 +1,28 @@
+{
+  "name": "learn-koa",
+  "version": "1.0.0",
+  "description": "Learn koa with koa-router, knex.js and objection.js",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ignore-path=.gitignore",
+    "start:dev": "node app/server.js"
+  },
+  "keywords": [],
+  "author": "Risyad Aji Dharmawan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "knex": "^0.16.5",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.11",
+    "mysql2": "^1.6.5",
+    "objection": "^1.6.8"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2"
+  }
+}
